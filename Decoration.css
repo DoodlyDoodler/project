@@ -1,0 +1,37 @@
+/* Simarpreet Singh (200413865) */
+
+body{
+    margin: 10%;
+    border-style: inset;
+    border-width: 10px;
+    border-color: orange;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+/*  animation */
+			@keyframes animation {
+    from {color: black;}
+    to {color: orange;}
+	}
+
+  h1, h2{ color: black; font-weight: bold; font-style:italic; font-family: "Comic Sans MS", cursive;animation-name: animation;animation-duration: 5s; animation-iteration-count: infinite;}
+
+  h1
+   {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 50px;
+    color: black;
+   }
+
+  h2
+   {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    color: black;
+   }
